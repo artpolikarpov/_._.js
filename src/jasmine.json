@@ -1,0 +1,25 @@
+{
+  "options": {
+    "vendor": ["bower_components/underscore/underscore.js", "../_._.js"]
+  },
+  "property": {
+    "options": {
+      "specs": "spec/property.js"
+    }
+  },
+  "deepExtend": {
+    "options": {
+      "specs": "spec/deepExtend.js"
+    }
+  },
+  "compact": {
+    "options": {
+      "specs": "spec/compact.js"
+    }
+  },
+  "isPlainObject": {
+    "options": {
+      "specs": "spec/isPlainObject.js"
+    }
+  }
+}
