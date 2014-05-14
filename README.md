@@ -2,7 +2,7 @@
 
 Four utility functions on top [of Underscore](http://underscorejs.org/). Well-tested.
 
-## \_compact `_._compact(list)`
+## `_._compact(list)`
 
 Returns a copy of the list with all falsy values removed.
 
@@ -15,7 +15,7 @@ _._compact({a: null, b: 1, c: NaN});
 ```
 
 
-## \_deepExtend `_._deepExtend(destination, *sources)`
+## `_._deepExtend(destination, *sources)`
 
 Copy all of the properties (including the properties of the properties of the properties...) in the source objects over to the destination object, and return the destination object.
 
@@ -25,7 +25,7 @@ _._deepExtend({name: 'moe', logins: {skype: 'moe64'}}, {age: 50, logins: {twitte
 ```
 
 
-## \_property `_._property(object, path, [value])`
+## `_._property(object, path, [value])`
 
 Returns the property of an object by evaluating the path. Path is a series of one or more identifiers separated by \.\. Does not throw when trying to index into a non-object or an undefined value.
 
@@ -45,7 +45,7 @@ _._property({name: 'moe'}, 'logins.email.primary', 'moe64@example.com');
 ```
 
 
-## \_isPlainObject `_._isPlainObject(value)`
+## `_._isPlainObject(value)`
 
 Returns true if value is an plain object, not a function or an array.
 
