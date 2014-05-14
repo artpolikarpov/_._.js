@@ -27,7 +27,7 @@ _._deepExtend({name: 'moe', logins: {skype: 'moe64'}}, {age: 50, logins: {twitte
 
 ## \_._property(object, path, [value])
 
-Returns the property of an object by evaluating the path. Path is a series of one or more identifiers separated by \.\. Does not throw when trying to index into a non-object or an undefined value.
+Returns the property of an object by evaluating the path. Path is a series of one or more identifiers separated by `.`. Does not throw when trying to index into a non-object or an undefined value.
 
 ```javascript
 _._property({name: 'moe', logins: {skype: 'moe64'}}, 'logins.skype');
