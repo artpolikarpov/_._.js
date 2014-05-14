@@ -5,7 +5,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     // Metadata.
     pkg: grunt.file.readJSON('package.json'),
-    banner: '/*!\n * <%= pkg.name %>.js <%= pkg.version %> | <%= pkg.homepage %> \n */\n',
+    banner: '/*!\n * <%= pkg.name %>.js <%= pkg.version %> | <%= pkg.homepage %>\n */\n',
     // Task configuration.
     concat: {
       options: {

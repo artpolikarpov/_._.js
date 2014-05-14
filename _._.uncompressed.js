@@ -1,5 +1,5 @@
 /*!
- * _._.js 0.1.0 | https://github.com/artpolikarpov/_._.js 
+ * _._.js 0.1.0 | https://github.com/artpolikarpov/_._.js
  */
 (function (that, undefined) {
 var __ = {};

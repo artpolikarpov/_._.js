@@ -1,4 +1,4 @@
 /*!
- * _._.js 0.1.0 | https://github.com/artpolikarpov/_._.js 
+ * _._.js 0.1.0 | https://github.com/artpolikarpov/_._.js
  */
 !function(a,b){var c={};c._compact=function(a){if(_._isPlainObject(a)){var b=_.clone(a);return _.each(a,function(a,c){a||delete b[c]}),b}return _.compact(a)},c._deepExtend=function(a){return _.each(Array.prototype.slice.call(arguments,1),function(b){_.each(b,function(b,c){_.isObject(b)&&_.isObject(a[c])&&_.isObject(b)?_._deepExtend(a[c],b):a[c]=b})}),a},c._isPlainObject=function(b){return _.isObject(b)&&b.constructor===a.Object&&!_.isArguments(b)},c._property=function(a,c,d){var e=a,f=c.split(".");return _.isUndefined(d)?(_.each(f,function(a){e=_.isObject(e)?e[a]:b}),e):(_.each(_.initial(f),function(a){e[a]=_.isObject(e[a])?e[a]:{},e=e[a]}),e[_.last(f)]=d,a)},_.mixin(c)}(this);
